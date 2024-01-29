@@ -1,0 +1,17 @@
+.DS_Store
+.vscode
+.idea
+
+node_modules
+
+*.log
+
+dist/*.gz
+dist/*.map
+dist/vue.common.min.js
+
+coverage
+
+packages/**/build.js
+packages/**/package-lock.json
+packages/**/.watchmanconfig
